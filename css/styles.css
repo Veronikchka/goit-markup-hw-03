@@ -205,15 +205,22 @@ padding: 6px 0px;
 }
 
 /* quality descripion*/
+.section-occupation {
 
-.list-container {
+    padding-bottom: 94px;
+}
+
+
+.section {
     padding-top: 94px;
+    padding-bottom: 94px;
+    margin: 0;
 
 }
 
 .list-quality-container {
 
-    max-width: 1200px;
+    width: 1200px;
     margin: 0;
     padding-left: 15px;
     padding-right: 15px;
@@ -269,12 +276,6 @@ padding: 6px 0px;
 
 
 /*occupation*/
-.list-container-occupation {
-    padding-top: 94px ;
-    padding-bottom: 94px;
-    margin:0 ;
-}
-
     
 
 .img-activity {
@@ -446,8 +447,7 @@ button:hover {
 
 .portfolio-img-content {
     margin-top:50px;
-    margin-bottom: 94px;
-    
+        
 }
 
 .container-item-portfolio {
