@@ -30,7 +30,6 @@ html {
 body {
     font-family: Roboto;
     font-style: normal;
-    width: 1600px;
     margin:auto;
 
 }
@@ -44,7 +43,7 @@ body {
 /* common header */
 
 .header-line {
-    margin-bottom: 94px;
+    margin-bottom: 0;
     border-bottom: 1px solid #ECECEC;
     
 }
@@ -72,11 +71,18 @@ header > a {
     color: var (--color-button-hover);
 }
 
-#nav-header {
+.navigation-header {
     min-width: 45px;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 93px;
+    margin-right: auto;
+    padding-left: 0px;
+    display: flex;
+    gap: 50px;
+       
     list-style-type: none;
+    
 }
 
 .header {
@@ -88,7 +94,7 @@ header > a {
 
     display: flex;
     align-items: center;  
-    justify-content: space-between;
+    
     
 }
 
@@ -104,11 +110,6 @@ header > a {
     letter-spacing: 0.02em;
     color: var(--color-text-primary);
     text-decoration: none;
-}
-
-.navigation-header:nth-child(2) {
-    margin-left: 98px;
-    margin-right: auto;
 }
 
 .nav-header:hover {
@@ -157,9 +158,8 @@ padding: 6px 0px;
 /*hero section*/
 
 .moto {
+    width: 696px;
     margin-top: 200px;
-    margin-left: 452px;
-    margin-right: 452px;
     margin-bottom: 30px;
     font-family: 'Roboto';
     font-style: normal;
@@ -205,13 +205,17 @@ padding: 6px 0px;
 }
 
 /* quality descripion*/
+.list-container 
+{
+padding-top: 94px;
+padding-bottom: 50px;
+
+}
 
    .list-quality {
     width: 1170px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 94px;
-    margin-bottom: 0;
     padding-left: 0px;
 
     display: flex;
@@ -257,17 +261,39 @@ padding: 6px 0px;
 
 /*occupation*/
 
+
 .img-activity {
 
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-bottom: 94px;
-    padding: 0;
+    
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    
 }
 
 /*team of studio*/
 
+.list-container-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #F5F4FA;;
+
+}
+
+.team-items-container {
+    
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
 .team-section {
     
     margin-top: 94px;
@@ -279,18 +305,10 @@ padding: 6px 0px;
 }
 
 
-.team-items-container {
-    
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 94px;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
+
 .team-item {
-    
+
+      
     text-align: center;
     margin: 0;
     background: #FFFFFF;
@@ -299,16 +317,17 @@ padding: 6px 0px;
 }
 
 .team-name {
+   
     width: content;
     margin-top: 30px;
     margin-bottom: 10px;
 
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 1.18;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
     color: #212121;
-   
+    text-align: center;
 }
 
 .team-function {
@@ -326,11 +345,9 @@ padding: 6px 0px;
 
 .headings {
     
-    
-    margin-top: 94px;
-    margin-bottom: 50px;
-    text-align: center;
-    
+    margin: 0;
+    padding-bottom: 50px;
+    text-align: center; 
     font-weight: 700px;
     font-size: 36px;
     line-height: 1.66;
@@ -342,20 +359,18 @@ padding: 6px 0px;
 /*Portfolio page*/
 /*menu of Portfolio Page*/
 
-.navigation-header {
-    padding-left: 0px;
+.portfolio-block {
+    padding-left: 94px 215px;
+    margin-top: 0;
+    margin-bottom: 0;
 
-    display: flex;
-    gap: 50px;
-   
 }
 
 .container-btn-menu {
 
-    min-width: 1170px;
+    list-style-type: none;
     padding-left: 0px;
-    margin:auto;
-    margin-bottom: 50px;
+    margin: 0;
 
     display: flex;
     justify-content: center;
@@ -365,7 +380,7 @@ padding: 6px 0px;
    
 }
 
-#btn-menu {list-style-type: none;}
+
 
 button {
     background: var(--color-button);
@@ -382,6 +397,8 @@ button {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
+    margin-bottom: 50px;
+
     line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
@@ -410,6 +427,10 @@ button:hover {
 
 /* Portfolio block*/
 
+.portfolio-block {
+    padding: 94px 215px;
+}
+
 .container-item-portfolio {
     
     width: 370px;
@@ -422,12 +443,11 @@ button:hover {
         
 }
 
-#portfolio-list  {
-    width: 1170px;
-    padding-left: 0px;
-    margin: 0 215px 94px; 
-    flex-basis: 1170px;
-    
+.portfolio-list  {
+   
+    padding: 0;
+   
+    margin: 0;
     display: flex;
     flex-wrap: wrap ;
     justify-content: center;
@@ -439,14 +459,16 @@ button:hover {
 
 .general-portfolio {
     border: 1px  Solid #EEEEEE;
+    padding: 20px 24px;
     
 }
 
 .title-portfolio {
     display:inline-block;
     width: 322px;
-    height: 36px;
-    margin: 20px 24px 4px 24px;
+    margin-top: 0;
+    margin-bottom: 4px;
+
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -457,11 +479,8 @@ button:hover {
 .subtitle-portfolio {
     display:inline-block;
     width: 322px;
-    height: 30px;
     margin: 0px;
-    margin-left: 24px;
-    margin-bottom: 20px;
-    
+       
     font-weight: 400;
     font-size: 16px;
     line-height: 2;
@@ -475,13 +494,13 @@ footer {
 
     background-color:var(--color-bckgr-footer);
     text-decoration: none;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-container {
     width: 1170px;
     margin: auto;
-    padding: 60px 0px;
-
     display: flex;
     flex-direction: column; 
     
@@ -515,7 +534,7 @@ footer > a {
     margin-top: 0px;
     margin-bottom: 12px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -529,7 +548,7 @@ footer > a {
     
 
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1,7;
     letter-spacing: 0.03em;
