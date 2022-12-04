@@ -30,7 +30,7 @@ html {
 body {
     font-family: Roboto;
     font-style: normal;
-    margin:auto;
+   
 
 }
 
@@ -43,8 +43,8 @@ body {
 /* common header */
 
 .header-line {
-    margin-bottom: 0;
-    border-bottom: 1px solid #ECECEC;
+    margin: 0;
+    border: 1px solid #ECECEC;
     
 }
       
@@ -86,7 +86,7 @@ header > a {
 }
 
 .header {
-    width: 1170px;
+    width: 1200px;
     margin:auto;
     padding-top: 24px;
     padding-bottom: 25px;
@@ -205,62 +205,77 @@ padding: 6px 0px;
 }
 
 /* quality descripion*/
-.list-container 
-{
-padding-top: 94px;
-padding-bottom: 50px;
+
+.list-container {
+    padding-top: 94px;
 
 }
 
-   .list-quality {
-    width: 1170px;
+.list-quality-container {
+
+    max-width: 1200px;
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 0px;
 
+  
+}
+
+.list-quality-flex {
+    
+    margin: 0;
     display: flex;
-    gap: 30px;
+    justify-content: space-between;
+
+    padding: 0;
+
     
-   }
 
-   .quality-item {
+}
 
+.quality-item {
     width: 270px;
-    padding-right:30px;
-    
-   }
 
-   .quality-item-last {
-    padding-right:0px;
-   }
-   
-    .quality-title {
-    margin: 0px;
-    margin-bottom: 10px;
+}
+
+.quality-title {
+    margin:0 ;
+    margin-bottom:10px ;
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
-}
 
-.list-bullets-none {
-    list-style: none;
+    color: #212121;
+    
 }
 
 .quality-definition {
-    
-    margin: 0px;
+    margin:0 ;
+
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+
     color: #757575;
+    
+
 }
 
-/*occupation*/
 
+/*occupation*/
+.list-container-occupation {
+    padding-top: 94px ;
+    padding-bottom: 94px;
+    margin:0 ;
+}
+
+    
 
 .img-activity {
 
@@ -275,12 +290,12 @@ padding-bottom: 50px;
 }
 
 /*team of studio*/
-
 .list-container-team {
+
     padding-top: 94px;
     padding-bottom: 94px;
-    background-color: #F5F4FA;;
-
+    margin: 0;
+    background-color: #F5F4FA;
 }
 
 .team-items-container {
@@ -360,16 +375,16 @@ padding-bottom: 50px;
 /*menu of Portfolio Page*/
 
 .portfolio-block {
-    padding-left: 94px 215px;
-    margin-top: 0;
-    margin-bottom: 0;
 
+    padding-left: 94px 0;
+    margin: 0 auto;
+    
 }
 
 .container-btn-menu {
 
     list-style-type: none;
-    padding-left: 0px;
+    padding: 0px;
     margin: 0;
 
     display: flex;
@@ -377,7 +392,6 @@ padding-bottom: 50px;
     align-items: center;
     gap: 8px;
        
-   
 }
 
 
@@ -388,16 +402,15 @@ button {
     border-style: none;
     cursor: pointer;
     
-    
 }
 
 .btn-menu { 
-    height: 38px;
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    margin-bottom: 50px;
+    
 
     line-height: 1.6;
     text-align: center;
@@ -427,8 +440,14 @@ button:hover {
 
 /* Portfolio block*/
 
-.portfolio-block {
-    padding: 94px 215px;
+.list-bullets-none {
+    list-style: none;
+}
+
+.portfolio-img-content {
+    margin-top:50px;
+    margin-bottom: 94px;
+    
 }
 
 .container-item-portfolio {
@@ -499,8 +518,8 @@ footer {
 }
 
 .footer-container {
-    width: 1170px;
-    margin: auto;
+    width: 1200px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column; 
     
