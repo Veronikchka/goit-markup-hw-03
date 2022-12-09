@@ -244,6 +244,29 @@ padding: 6px 0px;
 
 }
 
+.antenna-space {
+    width: 270px;
+    height: 120px;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 25px 100px;
+
+    display: flex;
+    justify-content: center;
+        
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.antenna-icon {
+
+ 
+    width: 70px;
+    height: 70px ;
+    
+        
+}
+
 .quality-item {
     width: 270px;
 
@@ -356,6 +379,7 @@ padding: 6px 0px;
 .team-function {
     width: content;
     margin: 0;
+    margin-bottom: 16px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
@@ -364,6 +388,7 @@ padding: 6px 0px;
     
 
 }
+
 
 .headings {
     
@@ -377,6 +402,29 @@ padding: 6px 0px;
     color: #212121;
 
 
+}
+
+.image-space {
+    width: 270px;
+    height: 104p;
+    padding: 30px 32px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    background-color: #212121;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+
+.media-space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 /*Portfolio page*/
 /*menu of Portfolio Page*/
