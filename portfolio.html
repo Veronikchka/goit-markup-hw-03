@@ -13,25 +13,42 @@
     
 </head>
 <!--header-->
+
 <body>
 
-<section>
+  <header>
+    <div class="header">
+      <a class="logo" href=""><span class="logo-blue-footer">Web</span>Studio</a>
+      </nav>
+      <ul id="nav-header" class="navigation-header">
+        <li><a class="nav-header" target="_self" href="./index.html" href="">Студія</a></li>
+        <li><a class="nav-header" >Портфоліо</a></li>
+        <li><a class="nav-header" href="">Контакти</a></li>
+      </ul>
+      </nav>
+      <ul class="container-contact-header">
 
-  <header class="header">
-  <a class="logo" href=""><span class="logo-blue-footer">Web</span>Studio</a>
-  </nav>
-       <ul class="navigation-header">
-         <li><a class="nav-header" target="_self" href="./index.html">Студія</a></li>
-         <li><a class="nav-header" href="">Портфоліо</a></li>
-         <li><a class="nav-header" href="">Контакти</a></li>
-     </ul>
-     <a class="contact-header" href="mailto:info@devstudio.com">info@devstudio.com</a>
-     <a class="contact-header" href="tel:+380961111111">+38 096 111 11 11</a>
-  </nav>
 
+        <li class="list-bullets-none contact-group">
+          <svg class="contact-icon" width="16" height="12">
+            <use href="./images/symbol-defs.svg#icon-envelope">
+            </use>
+          </svg>
+          <a class="contact-header" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+
+
+        <li class="list-bullets-none contact-group">
+          <svg class="contact-icon" width="10" height="16">
+            <use href="./images/symbol-defs.svg#icon-telephone">
+            </use>
+          </svg>
+          <a class="contact-header" href="tel:+380961111111">+38 096 111 11 11</a>
+
+        </li>
+      </ul>
+    </div>
   </header>
-</section>
-
  <!--main Портфоліо-->
 
 <main>
@@ -50,6 +67,8 @@
       <div class="portfolio-img-content">
         <h2 class="portfolio" style="display: none;">Portfolio</h2>
           <ul class="portfolio-list">
+
+           <div class="portfolio-card">
           <li class="container-item-portfolio">
             <img src="./images/img-8.jpg" alt="Наш персонал" width="370">
             <div class="general-portfolio">
@@ -57,61 +76,70 @@
             <h4 class="subtitle-portfolio">Веб-сайт</h4>
             </div>
           </li>
+           </div>
+          <div class="portfolio-card">
           <li class="container-item-portfolio">
             <img src="./images/img-9.jpg" alt="плакат Нью-Орлеан проти Голден Стар" width="370">
             <div class="general-portfolio">
             <h3 class="title-portfolio">Постер New Orlean vs Golden Star</h3>
             <h4 class="subtitle-portfolio">Дизайн</h4>
            </div>
-          </li>
+          </li></div>
+          <div class="portfolio-card">
           <li class="container-item-portfolio">
             <img src="./images/img-10.jpg" alt="Ресторан Сіфуд" width="370">
             <div class="general-portfolio">
             <h3 class="title-portfolio">Ресторан Seafood</h3>
             <h4 class="subtitle-portfolio">Додаток</h4>
             </div>
-          </li>
+          </li></div>
+          <div class="portfolio-card">
           <li class="container-item-portfolio">
             <img src="./images/img-11.jpg" alt="" width="370">
             <div class="general-portfolio">
             <h3 class="title-portfolio">Проєкт Prime</h3>
             <h4 class="subtitle-portfolio">Маркетинг</h4>
             </div>
-          </li>
+          </li></div>
+          <div class="portfolio-card">
           <li class="container-item-portfolio">
             <img src="./images/img-12.jpg" alt="Проєкт Боксис" width="370">
             <div class="general-portfolio">
             <h3 class="title-portfolio">Проєкт Boxes</h3>
             <h4 class="subtitle-portfolio">Додаток</h4>
             </div>
-          </li>
+          </li></div>
+          <div class="portfolio-card">
           <li class="container-item-portfolio">
             <img src="./images/img-13.jpg" alt="Сайт Натхнення без меж" width="370">
             <div class="general-portfolio">
             <h3 class="title-portfolio">Inspiration has no Borders</h3>
             <h4 class="subtitle-portfolio">Веб-сайт</h4>
             </div>
-          </li>
+          </li></div>
+          <div class="portfolio-card">
           <li class="container-item-portfolio">
             <img src="./images/img-14.jpg" alt="Видання Лімітид Едішн" width="370">
             <div class="general-portfolio">
             <h3 class="title-portfolio">Видання Limited Edition</h3>
             <h4 class="subtitle-portfolio">Дизайн</h4>
             </div>
-          </li>
+          </li></div>
+          <div class="portfolio-card">
           <li class="container-item-portfolio">
             <img src="./images/img-15.jpg" alt="Проєкт Леб" width="370">
             <div class="general-portfolio">
             <h3 class="title-portfolio">Проєкт LAB</h3>
             <h4 class="subtitle-portfolio">Маркетинг</h4>
             </div>
-          </li>
+          </li></div>
+          <div class="portfolio-card">
           <li class="container-item-portfolio">
             <img src="./images/img-16.jpg" alt="Зростаючий бізнес" width="370">
             <div class="general-portfolio">
             <h3 class="title-portfolio">Growing Business</h3>
             <h4 class="subtitle-portfolio">Додаток</h4>
-            </li>
+            </li></div>
           </ul>
       </div>
    </div>
@@ -120,13 +148,56 @@
 <!--Address in the footer-->
 <footer>
   <div class="footer-container">
-  <a class="logo-bottom" href=""><span class="logo-blue-footer">Web</span>Studio</a>
-     <address class="continer-contacts-bottom">
-       <p class="address-footer">м. Київ, пр-т Лесі Українки, 26</p>
-       <a class="contacts-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
-       <a class="contacts-footer telephone" href="tel:+380961111111">+38 096 111 11 11</a>
-     </address>
+    <div class="footer-company-contacts">
+      <a class="logo-bottom" href=""><span class="logo-blue-footer">Web</span>Studio</a>
+      <address class="continer-contacts-bottom">
+        <p class="address-footer">м. Київ, пр-т Лесі Українки, 26</p>
+        <a class="contacts-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="contacts-footer telephone" href="tel:+380961111111">+38 096 111 11 11</a>
+      </address>
+    </div>
+    <div class="footer-links">
+      <h3 class="call-to-action">приєднуйтесь</h3>
+      <ul class="social-list list-bullets-none">
+  
+        <li class="social-item">
+          <a class="icon-space-footer" href="#">
+            <svg class="icon" width="20" height="20">
+              <use href="./images/symbol-defs.svg#icon-instagram-2">
+              </use>
+            </svg>
+          </a>
+        </li>
+  
+        <li class="social-item">
+          <a class="icon-space-footer" href="#">
+            <svg class="icon" width="20" height="20">
+              <use href="./images/symbol-defs.svg#icon-twitter">
+              </use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a class="icon-space-footer" href="#">
+            <svg class="icon" width="20" height="20">
+              <use href="./images/symbol-defs.svg#icon-facebook">
+              </use>
+            </svg>
+          </a>
+        </li>
+  
+        <li class="social-item">
+          <a class="icon-space-footer" href="#">
+            <svg class="icon" width="20" height="20">
+              <use href="./images/symbol-defs.svg#icon-linkedin-1">
+              </use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
+
 </footer>
 </body>
 </html>
