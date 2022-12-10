@@ -584,7 +584,6 @@ button:hover {
 }
 
 /*common footer*/
-
 footer {
 
     background-color:var(--color-bckgr-footer);
@@ -718,9 +717,48 @@ footer > a {
     border-radius: 50%;
 
 }
+.icon-space-footer:hover {
+   
+    background-color: var(--color-button-hover)
+    
+}
 
 
-.icon-space:hover {
-    background-color: var(--color-text-action);
-    fill: var(--color-invert);
+
+/* our clients*/
+.clients-logo-block {
+    width:170px;
+    height: 92px;
+ 
+}
+
+.clients-logo-space {
+    width: 100%;
+    height:100%;
+    padding: 16px 32px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.clients-logo-space:hover {
+
+border: 1px solid #2196F3;
+}
+
+.clients-logo-list {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+   
+}
+
+.clients-logo:hover {
+fill: 1px solid #2196F3;
+
+}
+.clients-logo:hover {
+    fill:#2196F3;
 }
