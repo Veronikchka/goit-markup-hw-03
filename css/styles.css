@@ -360,6 +360,8 @@ padding: 6px 0px;
 .team-card {
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-right: 32px;
+    padding-left: 32px;
 }
 
 .team-name {
@@ -410,22 +412,43 @@ padding: 6px 0px;
     padding: 30px 32px;
 }
 
-.icon {
-    width: 30px;
-    height: 30px;
-    background-color: #212121;
-    padding: 0;
-    margin: 0;
-    display: block;
-}
-
-
-.media-space {
+.social-list {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 10px;
+    padding-left: 0;
 }
+
+.social-item {
+    width: 44px;
+    height: 44px;
+    
+}
+.icon-space {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-bckgr-secondary) ;
+    fill: #AFB1B8;
+    border-radius: 50%;
+  
+}
+
+  
+.icon-space:hover {
+    background-color: var(--color-text-action);
+    fill: var(--color-invert);
+}
+
+
+
+
+    
+
+
 /*Portfolio page*/
 /*menu of Portfolio Page*/
 
